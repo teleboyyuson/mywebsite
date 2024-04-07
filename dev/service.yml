@@ -10,12 +10,12 @@ spec:
   - 192.168.122.50
   ports:
     - protocol: TCP
-      port: 8088
+      port: 80
       targetPort: 80
-      nodePort: 30000
+      nodePort: 32100
       name: http
     - protocol: TCP
-      port: 8089
+      port: 443
       targetPort: 443
-      nodePort: 30001
+      nodePort: 32101
       name: https
